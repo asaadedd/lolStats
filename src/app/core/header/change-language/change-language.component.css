@@ -1,0 +1,17 @@
+.stats-header-change-language-main {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.stats-header-change-language-img {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  padding-top: 15px;
+}
+
+.stats-header-change-language-text {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  padding-top: 9px;
+}

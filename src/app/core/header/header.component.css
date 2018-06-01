@@ -1,0 +1,193 @@
+/*
+  ##Device = Desktop
+*/
+@media (min-width: 1025px) {
+  .stats-header-main {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .stats-header-logo {
+    flex: 0 1 5%;
+  }
+
+  .stats-header-nab-bar {
+    flex: 0 1 50%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-change-lang {
+    flex: 0 1 10%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-user {
+    flex: 0 1 40%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-menu-button{
+    display: none;
+  }
+
+  .stats-header-account-button{
+    display: none;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .stats-header-main {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .stats-header-logo {
+    flex: 0 1 5%;
+  }
+
+  .stats-header-nab-bar {
+    flex: 0 1 70%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-user {
+    flex: 0 1 30%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-menu-button{
+    display: none;
+  }
+
+  .stats-header-account-button{
+    display: none;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .stats-header-main {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .stats-header-logo {
+    flex: 0 1 5%;
+  }
+
+  .stats-header-nab-bar {
+    flex: 0 1 70%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-user {
+    flex: 0 1 30%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-menu-button{
+    display: none;
+  }
+
+  .stats-header-account-button{
+    display: none;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .stats-header-main {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    max-width: 481px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .stats-header-logo {
+    flex: 0 1 5%;
+  }
+
+  .stats-header-nab-bar {
+    flex: 0 1 70%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-user {
+    flex: 0 1 30%;
+    padding: 10px 0 0 20px;
+  }
+
+  .stats-header-menu-button{
+    display: none;
+  }
+
+  .stats-header-account-button{
+    display: none;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+  .stats-header-main {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .stats-header-logo {
+    flex: 0 1 20%;
+  }
+
+  .stats-header-nab-bar {
+    display: none;
+  }
+
+  .stats-header-user {
+    display: none;
+  }
+
+  .stats-header-menu-button{
+    flex: 0 1 40%;
+    padding: 5px 0 0 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .stats-header-account-button{
+    flex: 0 1 40%;
+    padding: 5px 20px 0 0;
+    font-size: 30px;
+    text-align: end;
+    color: white;
+  }
+}

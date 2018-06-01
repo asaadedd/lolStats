@@ -1,0 +1,35 @@
+{
+  "header": {
+    "tabs": {
+      "home": "Acasa",
+      "stats": "Statistici",
+      "opening": "Posturi libere",
+      "myOpenings": "Posturi mele"
+    },
+    "language": {
+      "TEXT": "Limba",
+      "fields": {
+        "english": "ENGLEZA",
+        "romanian": "ROMANA"
+      }
+    },
+    "user": {
+      "signUp": {
+        "TEXT": "INSCRIE-TE",
+        "fields": {
+          "firstName": "Prenume",
+          "lastName": "Nume",
+          "email": "Email",
+          "age": "Varsta",
+          "riotId": "Riot ID",
+          "question": "Intrebarea de siguranta",
+          "answer": "Raspuns",
+          "password": "Parola"
+        }
+      },
+      "login": {
+        "TEXT": "AUTENTIFICARE"
+      }
+    }
+  }
+}

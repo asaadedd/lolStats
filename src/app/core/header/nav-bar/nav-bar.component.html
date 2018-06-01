@@ -1,0 +1,5 @@
+<div class="stats-header-nav-bar-main">
+  <a class="stats-header-nav-bar-element" *ngFor="let header of headers | async"
+     routerLink="{{header.path}}" routerLinkActive="active"> {{ header.translatePath | translate }}</a>
+</div>
+

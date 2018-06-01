@@ -1,0 +1,18 @@
+.stats-header-user-info-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats-header-user-info-element {
+  flex: 0 0 100px;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsla(0,0%,100%,.7);
+  font-family: Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.stats-header-user-info-element:hover {
+  color: hsla(0,0%,100%,1);
+}

@@ -1,0 +1,7 @@
+<mat-select disableOptionCentering disableRipple>
+  <mat-option *ngFor="let language of languages"
+                  [value]="language.name" (click)="onOptionChanged(language.name)">
+    <img class="stats-header-change-language-img" [src]="language.imageUrl">
+    <span class="stats-header-change-language-text">{{ language.translatePath | translate }}</span>
+  </mat-option>
+</mat-select>

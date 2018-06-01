@@ -1,0 +1,22 @@
+.stats-body {
+  display: flex;
+  flex-flow: column;
+  background: #002650 url('/assets/images/background.png') top repeat-y;
+  bottom: 0;
+  min-height: 100vh;
+}
+
+.stats-header {
+  -webkit-flex: 0 1 60px;
+  -ms-flex: 0 1 60px;
+  flex: 0 1 60px;
+  background-color: rgba(0,174,255,.05);
+  z-index: 1;
+}
+
+.stats-main {
+  -webkit-flex: 0 1 600px;
+  -ms-flex: 0 1 600px;
+  flex: 0 1 600px;
+}
+

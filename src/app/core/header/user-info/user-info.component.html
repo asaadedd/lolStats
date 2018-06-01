@@ -1,0 +1,7 @@
+<div class="stats-header-user-info-main" *ngIf="!isLoggedIn">
+  <a class="stats-header-user-info-element" routerLink="/user/login" routerLinkActive="active"> {{'header.user.login.TEXT' | translate}} </a>
+  <a class="stats-header-user-info-element" routerLink="/new-user" routerLinkActive="active"> {{'header.user.signUp.TEXT' | translate}} </a>
+</div>
+<div class="stats-header-user-info-main" *ngIf="isLoggedIn">
+  <span class="stats-header-user-info-element"> {{ userName }} </span>
+</div>

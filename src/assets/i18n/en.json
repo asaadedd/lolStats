@@ -1,0 +1,35 @@
+{
+  "header": {
+    "tabs": {
+      "home": "Home",
+      "stats": "Stats",
+      "opening": "Opening",
+      "myOpenings": "My Openings"
+    },
+    "language": {
+      "TEXT": "Language",
+      "fields": {
+        "english": "ENGLISH",
+        "romanian": "ROMANIAN"
+      }
+    },
+    "user": {
+      "signUp": {
+        "TEXT": "SIGN UP",
+        "fields": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email",
+          "age": "Age",
+          "riotId": "Riot ID",
+          "question": "Security question",
+          "answer": "Answer",
+          "password": "Password"
+        }
+      },
+      "login": {
+        "TEXT": "LOGIN"
+      }
+    }
+  }
+}
